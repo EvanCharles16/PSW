@@ -169,6 +169,7 @@ h1.font-weight-bold{
 
 .categoryText{
     font-size: 1rem !important;
+    text-transform: capitalize !important;
 }
 /* Category slider end */
 
@@ -352,6 +353,8 @@ img.aboutImg{
 .happyclients{
     width: 100%;
     height: 60vh;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .box{
@@ -416,7 +419,7 @@ img.aboutImg{
 .contactus{
     width: 100%;
     height: 60vh;
-    padding: 80px 0;
+    padding: 45px 0;
     position: relative;
 }
 
