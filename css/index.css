@@ -1,3 +1,4 @@
+/* Default Styling start */
 html{
     scroll-behavior: smooth;
 }
@@ -6,7 +7,7 @@ html{
     margin :0;
     padding : 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -28,22 +29,19 @@ p{
     color : #606060
 }
 
-.extradiv h2{
-    font-size: 0.9rem;
-    margin: 20px 0 15px 0;
-    font-weight: bold;
-    line-height: 1.1;
-    word-spacing: 4px;
-}
-
 i{
     color: #2fccd0;
 }
 
+img.img-fluid.img-thumbnail{
+    cursor: default !important;
+}
+/* Default Styling end */
+
 .header{
     widows: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('../images/computer-desk.jpg');
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
@@ -62,6 +60,7 @@ i{
     background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
 }
 
+/* Navbar start */
 .navbar:before{
     content: "";
     position: absolute;
@@ -74,12 +73,25 @@ i{
     background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
 }
 
-
 .nav-item a{
+    text-transform: capitalize;
     color: #fff !important;
     font-weight: bold;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 10px;
+    padding: 6px 12px !important;
 }
 
+.nav-item a:hover{
+    font-weight: bold;
+    color : #50d1c0 !important;
+    background : #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+/* Navbar end */
+
+/* Banner start */
 .header-section{
     width: 100%;
     height: inherit;
@@ -124,13 +136,42 @@ i{
     padding: 10px 0 20px 0;
     color: white;
 }
+/* Banner end */
 
-/* Extra header div css start */
+/* Heading start */
+.headings{
+    margin-bottom: 50px;
+}
 
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* Heading end */
+
+/* Category slider start */
+.category{
+    width: 100%;
+    height: 77vh;
+    padding: 80px 0;
+}
+
+.categoryImg{
+    width:  100%;
+    height: 100%;
+}
+
+.categoryText{
+    font-size: 1rem !important;
+}
+/* Category slider end */
+
+/* Services start */
 .header-extradiv{
     width: 100%;
     height: auto;
-    margin: 100px 0;
+    margin: -80px 0 100px 0;
     text-align: center;
 }
 
@@ -142,39 +183,7 @@ i{
     transition: 0.3s;
 }
 
-.extradiv:hover{
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-    transform: translateY(-20px);
-}
-
-/* Extra header div css end */
-
-/* Service offers css start */
-
-.serviceffers{
-    background: #f7f7f9;
-    padding: 50px 0;
-    margin-bottom: 50px;
-}
-
-.headings{
-    margin-bottom: 50px;
-}
-
-.headings h1{
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.names h1{
-    color: #2e2e2e;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.servicediv h2{
+.extradiv h2{
     font-size: 0.9rem;
     margin: 20px 0 15px 0;
     font-weight: bold;
@@ -182,21 +191,54 @@ i{
     word-spacing: 4px;
 }
 
-.service-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.extradiv:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+/* Service end */
+
+/* Carousel Category & Clients start */
+span.carousel-control-prev-icon, span.carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
-.progress{
-    height: 0.6rem !important;
-    margin-bottom: 25px !important;
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+    opacity: 0;
+
 }
 
+.carousel-indicators li{
+    background-color: #16c9f6 !important;
+}
+/* Carousel Category & Clients end */
+
+/* Aboutus start */
+.aboutus{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.aboutdiv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
 /* Service offers css end */
 
-/* Awards won start */
 
+/* Some Content */
 .project-work{
     margin: 100px 0;
 }
@@ -205,19 +247,17 @@ i{
     font-size: 2rem;
     text-align: center;
 }
+/* Some Content */
 
-/* Awards won ends */
-
-/* Pricing css start */
-
-.pricing{
+/* Portfolio start */
+.portfolio{
     width: 100%;
-    height: 70vh;
-    padding: 50px;
+    height: 80vh;
+    padding: 100px !important;
     position: relative;
 }
 
-.pricing:before{
+.portfolio:before{
     content: "";
     position: absolute;
     top: 0%;
@@ -295,15 +335,13 @@ i{
 .card-second{
     transform: translateY(-20px);
 }
+/* Portfolio end */
 
-/*  Pricing css end */
 
 /* Customer feedback start */
-
 .happyclients{
     width: 100%;
-    height: 77vh;
-    padding: 80px 0;
+    height: 60vh;
 }
 
 .box{
@@ -320,16 +358,6 @@ i{
 
 .box:hover p{
     color: white;
-}
-
-.carousel-indicators{
-    position: absolute;
-    right: 0;
-    bottom: -60px !important;
-}
-
-.carousel-indicators li{
-    background-color: #16c9f6 !important;
 }
 
 .box a{
@@ -372,11 +400,9 @@ i{
     color: #666666;
     margin-bottom: 20px;
 }
-
 /*  Customer feedback end */
 
 /* Contact us start */
-
 .contactus{
     width: 100%;
     height: 60vh;
@@ -418,11 +444,9 @@ i{
 ::placeholder{
     font-size: 0.85rem;
 }
-
 /* Contact us end */
 
 /* Newsletter start */
-
 .newsletter{
     width: 100%;
     height: auto;
@@ -442,11 +466,9 @@ i{
     min-width: 130px;
     min-height: 40;
 }
-
 /* Newsletter end */
 
 /* Footer start */
-
 .footersection{
     width: 100%;
     height: auto;
@@ -467,7 +489,7 @@ i{
     text-transform: capitalize;
 }
 
-.footersection h3{
+.footersection h3, .footersection h4{
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 25px;
@@ -475,7 +497,7 @@ i{
     font-weight: 600;
     text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
-
+/* Arrow up button */
 #myBtn{
     position: fixed;
     bottom: 20px;
@@ -491,39 +513,4 @@ i{
 #myBtn:hover{
     background: #606060;
 }
-
 /* Footer end */
-
-
-/*  Media Queries */
-@media (max-width : 768px) {
-    .nav-item{
-        text-align: center !important;
-    }
-
-    .pricing, .happyclients, .contactus  {
-        height: auto;
-        margin-top: 50px;
-    }
-
-    .card-second{
-        transform: translateY(0px);
-        margin: 30px 0;
-    }
-
-    .contactus p{
-        padding: 0 50px;
-    }
-
-    .box{
-        margin-top: 20px;
-    }
-
-    .footer-div:nth-child(2){
-        text-align: left !important;
-    }
-
-    .footer-div{
-        margin: 30px 0;
-    }
-}

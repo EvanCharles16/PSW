@@ -1,3 +1,3 @@
-# WeDev
+# Hybeast
 
-Trying to build A Simple Responsive Website
+Making Static E-commerce Website with HTML , CSS , Javascript 
