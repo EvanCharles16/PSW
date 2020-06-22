@@ -23,7 +23,7 @@ li{
 }
 
 p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
     color : #606060
@@ -36,6 +36,11 @@ i{
 img.img-fluid.img-thumbnail{
     cursor: default !important;
 }
+
+h1.font-weight-bold{
+    font-size: 1.5rem;
+}
+
 /* Default Styling end */
 
 .header{
@@ -235,7 +240,12 @@ span.carousel-control-prev-icon, span.carousel-control-next-icon{
     line-height: 1.1;
     word-spacing: 4px;
 }
-/* Service offers css end */
+
+img.aboutImg{
+    width: 350px;
+    height: 300px;
+}
+/* Aboutus end */
 
 
 /* Some Content */
@@ -419,6 +429,18 @@ span.carousel-control-prev-icon, span.carousel-control-next-icon{
     bottom: 0;
     background: linear-gradient(330deg, #16c9f6 55%, #fff 0);
     z-index: -1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .form-button button{

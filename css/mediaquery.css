@@ -1,17 +1,37 @@
 /*  Media Queries */
+
+@media (max-width : 1500px){
+    h1.font-weight-bold{
+        font-size: 2rem;
+    }
+}
+
 @media (max-width : 768px) {
     .nav-item{
         text-align: center !important;
     }
 
-    .portfolio, .category, .contactus  {
+    section.category{
+        margin : 10px 0 !important;
+        padding: 10px 0 !important;
+    }
+
+    .portfolio, .category  {
         height: auto;
         margin-top: 50px;
+    }
+
+    .contactus{
+        margin-top: 940px;
     }
 
     .card-second{
         transform: translateY(0px);
         margin: 30px 0;
+    }
+
+    .header-extradiv h4{
+        margin-top: 5rem;
     }
 
     .contactus p{
@@ -31,7 +51,7 @@
     }
 }
 
-@media all and (max-width : 991px) {
+@media (max-width : 991px) {
 
 .nav-item a{
     color: #fff !important;
@@ -41,5 +61,45 @@
     text-align: center;
     text-transform: capitalize;
     border: none;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 801px) {
+    .card-footer a{
+        margin: 0 5px;
+        padding: 4px 9px;
+    }
+    img.aboutImg{
+        width: 300px !important;
+        height: 250px !important;
+    }
+    section.contactus{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width : 561px){
+    h1.font-weight-bold{
+        font-size: 1.5rem;
+    }
+    .form-button button{
+        margin: -7px 5px;
+        padding: 10px 35px;
+    }
+    .footersection h3, .footersection h4{
+        margin-left: 6px;
+    }
+    
+}
+
+@media (max-width : 421px){
+    h1.font-weight-bold{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width : 0px) and (max-width : 380px ){
+    *{
+        display: none;
     }
 }
