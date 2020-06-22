@@ -1,8 +1,3 @@
-$('.count').counterUp({
-    delay: 15,
-    time: 2000
-})
-
 // Get the Button
 mybutton = document.getElementById("myBtn");
 
