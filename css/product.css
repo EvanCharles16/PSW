@@ -1,3 +1,27 @@
+/* Banner Product Start */
+.header-product{
+    widows: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('../images/banner-product.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+
+.header-product:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+/* Banner Product End */
+
 /* Product Card start */
 .product-box{
     text-align: center;
