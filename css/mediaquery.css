@@ -8,6 +8,9 @@
         width: 350px;
         height: 300px;
     }
+    .contactus{
+        margin-top: 0 !important;
+    }
     button.buttonSubmit{
         border: 2px solid #fff !important;
         border-radius: 100px;

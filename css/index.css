@@ -522,6 +522,10 @@ input[type=number] {
     font-weight: 600;
     text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
+.footersection .fa-instagram:hover, .footersection .fa-whatsapp:hover{
+    transform: translateY(-5px);
+}
+
 /* Arrow up button */
 #myBtn{
     position: fixed;
