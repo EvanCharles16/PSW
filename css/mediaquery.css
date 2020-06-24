@@ -8,6 +8,24 @@
         width: 350px;
         height: 300px;
     }
+    button.buttonSubmit{
+        border: 2px solid #fff !important;
+        border-radius: 100px;
+        margin: 0 5px;
+        padding: 12px 35px;
+        outline: none;
+        color: #fff !important; 
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.4;
+        text-align: center;
+        text-decoration: none;
+    }
+    button.buttonSubmit:hover{
+        color : #50d1c0 !important;
+    background : #fff !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3) !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -70,7 +88,7 @@
         height: 70vh !important;
     }
 
-    .card-second{
+    .homeCard-second{
         transform: translateY(0px);
         margin: 30px 0;
     }
@@ -105,7 +123,7 @@
     .portfolio{
         margin-top: 50px;
     }
-    .card{
+    .homeCard{
         width: 320px;
         margin: auto;
     }
@@ -115,7 +133,7 @@
     h1.font-weight-bold{
         font-size: 1.3rem;
     }
-    .card{
+    .homeCard{
         width: 280px;
         margin: auto;
     }
@@ -129,21 +147,21 @@
 }
 
 @media (min-width : 420px) and (max-width : 430px){
-    .card{
+    .homeCard{
         width: 220px;
         margin-left: -10px;
     }
 }
 
 @media (min-width : 390px) and (max-width : 419px){
-    .card{
+    .homeCard{
         width: 220px;
         margin-left: -23px;
     }
 }
 
 @media (min-width : 380px) and (max-width : 388px){
-    .card{
+    .homeCard{
         width: 180px;
         margin-left: -10px;
     }
@@ -151,30 +169,41 @@
 
 
 @media (min-width : 360px) and (max-width : 379px){
-    .card{
+    .homeCard{
         width: 180px;
         margin-left: -20px;
     }
 }
 
 @media (min-width : 341px) and (max-width : 359px){
-    .card{
+    .homeCard{
         width: 180px;
         margin-left: -30px;
     }
 }
 
 @media (min-width : 310px) and (max-width : 340px){
-    .card{
+    .homeCard{
         width: 180px;
         margin-left: -35px;
     }
 }
 
 @media (min-width : 320px) and (max-width : 330px){
-    .card{
+    .homeCard{
         width: 180px;
         margin-left: -40px;
+    }
+}
+
+@media (min-width : 320px){
+    .contactus{
+        margin-top: 500px;
+        margin-bottom: 200px;
+    }
+    button.buttonSubmit{
+        border: 1px solid black;
+        color: black;
     }
 }
 
