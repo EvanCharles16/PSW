@@ -49,6 +49,22 @@
     }
 }
 
+@media (min-width :772px) and (max-width : 991px){
+    .nav-item{
+        text-align: center !important;
+    }
+
+    .nav-item a{
+        color: #fff !important;
+        font-weight: bold;
+        margin: 0 10px;
+        padding: 6px 12px !important;
+        text-align: center;
+        text-transform: capitalize;
+        border: none;
+    }
+}
+
 @media (max-width : 771px) {
     .nav-item{
         text-align: center !important;
