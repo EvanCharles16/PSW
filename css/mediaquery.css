@@ -22,7 +22,15 @@
     }
 
     .contactus{
-        margin-top: 940px;
+        margin-top:440px;
+        margin-bottom: 100px;
+        height: 70vh !important;
+    }
+
+    .card{
+        width: 300px;
+        height: auto;
+        margin-left: 100px;
     }
 
     .card-second{
